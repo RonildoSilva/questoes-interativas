@@ -1,0 +1,69 @@
+.app-header {
+  margin-bottom: 40px;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-banner {
+  width: 100%;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.header-banner-img {
+  width: 33%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.header-placeholder {
+  width: 33%;
+  background: var(--primary);
+  padding: 0;
+  text-align: center;
+  font-size: 80px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-info {
+  padding: 30px 20px;
+  text-align: center;
+  background: #f8f9fa;
+  color: #333;
+  width: 100%;
+}
+
+.app-header h1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 700;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 13px;
+  }
+
+  .header-banner-img,
+  .header-placeholder {
+    width: 40%;
+  }
+
+  .header-placeholder {
+    font-size: 60px;
+  }
+
+  .header-info {
+    padding: 20px 15px;
+  }
+}
