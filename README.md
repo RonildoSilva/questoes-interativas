@@ -1,6 +1,6 @@
-# ENADE - Sistema Interativo de Questões de Estudo
+# Sistema Interativo de Questões de Estudo
 
-Um sistema web interativo para prática de questões do ENADE, desenvolvido com React e Vite.
+Um sistema web interativo para prática de questões, desenvolvido com React e Vite.
 
 ## 🎯 Features
 
@@ -93,7 +93,7 @@ Cada questão segue a seguinte estrutura:
   justificativa: "A resposta correta é...", // Explicação
   referencias: ["RFC 791", "Livro X"],      // Referências (opcional)
   dificuldade: "media",                     // facil, media, dificil
-  ano: 2023                                 // Ano do ENADE
+  ano: 2023                                 // Ano 
 }
 ```
 
@@ -189,5 +189,3 @@ Para dúvidas ou problemas:
 3. Limpe o cache: `rm -rf node_modules && npm install`
 
 ---
-
-**Desenvolvido com ❤️ para ajudar na preparação para o ENADE**
