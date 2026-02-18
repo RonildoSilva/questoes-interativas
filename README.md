@@ -4,19 +4,19 @@ Um sistema web interativo para prática de questões, desenvolvido com React e V
 
 ## 🎯 Features
 
-✅ **Questões Dinâmicas** - Sistema genérico compatível com qualquer disciplina
-✅ **Questões Embaralhadas** - Ordem aleatória a cada sessão
-✅ **Alternativas Embaralhadas** - Conteúdo aleatório mantendo letras A-B-C-D-E em ordem
-✅ **Resposta Única ou Múltipla** - Suporta questões com diferentes tipos
-✅ **Resposta Imediata** - Clique na alternativa muda de cor instantaneamente
-✅ **Explicações Inline** - Botão 📋 expande/colapsa explicação por alternativa
-✅ **Feedback Visual** - Verde ✓ (correta), Vermelho ✗ (errada), Cinza (ignorada)
-✅ **Imagens Flexíveis** - Questões podem ter 0, 1 ou múltiplas imagens
-✅ **Navegação Intuitiva** - Avançar/voltar entre questões respondidas
-✅ **Barra de Progresso** - Acompanhamento visual com badge "✓ Respondida"
-✅ **Header Customizável** - Logo com 33% da largura e título configurável
-✅ **Tema em Cores** - Sistema de cores baseado em CSS variables
-✅ **Responsivo** - Funciona em desktop, tablet e mobile
+- ✅ **Questões Dinâmicas** - Sistema genérico compatível com qualquer disciplina
+- ✅ **Questões Embaralhadas** - Ordem aleatória a cada sessão
+- ✅ **Alternativas Embaralhadas** - Conteúdo aleatório mantendo letras A-B-C-D-E em ordem
+- ✅ **Resposta Única ou Múltipla** - Suporta questões com diferentes tipos
+- ✅ **Resposta Imediata** - Clique na alternativa muda de cor instantaneamente
+- ✅ **Explicações Inline** - Botão 📋 expande/colapsa explicação por alternativa
+- ✅ **Feedback Visual** - Verde ✓ (correta), Vermelho ✗ (errada), Cinza (ignorada)
+- ✅ **Imagens Flexíveis** - Questões podem ter 0, 1 ou múltiplas imagens
+- ✅ **Navegação Intuitiva** - Avançar/voltar entre questões respondidas
+- ✅ **Barra de Progresso** - Acompanhamento visual com badge "✓ Respondida"
+- ✅ **Header Customizável** - Logo com 33% da largura e título configurável
+- ✅ **Tema em Cores** - Sistema de cores baseado em CSS variables
+- ✅ **Responsivo** - Funciona em desktop, tablet e mobile
 
 ## 🚀 Primeiros Passos
 
@@ -120,7 +120,7 @@ Cada questão segue a seguinte estrutura:
 Edite `src/App.jsx` (linhas 15-17):
 
 ```javascript
-const APP_TITULO = 'ENADE - Questões de Estudo'; // Mude o título
+const APP_TITULO = 'Questões de Estudo'; // Mude o título
 const APP_IMAGEM = '/logo.webp';                 // URL da logo (deixar vazio para emoji)
 ```
 
