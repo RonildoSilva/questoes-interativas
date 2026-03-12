@@ -97,7 +97,7 @@ Cada questão segue a seguinte estrutura:
   justificativa: "A resposta correta é...", // Explicação
   referencias: ["RFC 791", "Livro X"],      // Referências (opcional)
   dificuldade: "media",                     // facil, media, dificil
-  ano: 2023                                 // Ano
+  ano: 2023                                 // Ano 
 }
 ```
 
@@ -240,4 +240,3 @@ Para dúvidas ou problemas:
 3. Limpe o cache: `rm -rf node_modules && npm install`
 
 ---
-
