@@ -1,6 +1,10 @@
 # Sistema Interativo de Questões de Estudo
 
-Um sistema web interativo para prática de questões, desenvolvido com React e Vite.
+> Aplicação web para praticar questões de múltipla escolha (ENADE e outras provas) com embaralhamento, feedback imediato e explicações por alternativa.
+
+![status](https://img.shields.io/badge/status-concluído-success) ![react](https://img.shields.io/badge/React-19-blue) ![vite](https://img.shields.io/badge/Vite-7-purple)
+
+Desenvolvido em fevereiro de 2026 com React e Vite, sem dependências além do React. As questões ficam em um arquivo de dados e o tema é configurado por variáveis CSS (veja `CUSTOMIZAR_CORES.md`).
 
 ## 🎯 Features
 
@@ -240,3 +244,9 @@ Para dúvidas ou problemas:
 3. Limpe o cache: `rm -rf node_modules && npm install`
 
 ---
+
+## Status
+Concluído e em uso; novas questões são adicionadas em `src/data/questoes.js`.
+
+## Autor
+Ronildo Silva · ronildo.comp@gmail.com
