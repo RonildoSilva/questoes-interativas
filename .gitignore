@@ -82,3 +82,9 @@ out
 # src/data/
 # public/images/
 
+# Sistema / editores
+Thumbs.db
+desktop.ini
+.~lock*#
+# Node
+dist/
